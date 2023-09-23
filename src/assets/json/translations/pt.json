@@ -1,0 +1,54 @@
+{
+    "me-photo": "images/me_default_pb.png",
+    "language-selector": "Linguagem ",
+    "header": {
+        "title": "Vinícius S. Petini",
+        "subtitle": "Desenvolvedor fullstack em busca de desafios e novos aprendizados.",
+        "keywords": [
+            "#futebol",
+            "#xadres",
+            "#lutas",
+            "#jogos"
+        ]
+    },
+    "section1": {
+        "title": "Aqui vocês verão meus trabalhos...",
+        "jobs": [
+            {
+                "title": "Mister Desenvolvimento",
+                "description": "Trabalho atualmente como desenvolvedor fullstack, construindo com diversas aplicações.",
+                "initdate": "01/11/2019",
+                "enddate": "20/09/2023",
+                "badges": [
+                    "golang",
+                    "php",
+                    "javascript",
+                    "others"
+                ],
+                "location": {
+                    "address": "Domingos Tenuta, 534",
+                    "city": "Campo Grande-MS"
+                }
+            },
+            {
+                "title": "Advocacia geral da União",
+                "description": "Fiz estágio em um orgão público de Campo Grande-MS.",
+                "initdate": "01/06/2018",
+                "enddate": "01/09/2018",
+                "badges": [
+                    "javascript"
+                ],
+                "location": {
+                    "address": "Jardim novo, 55",
+                    "city": "Campo Grande-MS"
+                }
+            }
+        ]
+    },
+    "papai": {
+        "nene" :{
+            "nunu": "tata br"
+        }
+    }
+
+}

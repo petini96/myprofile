@@ -1,0 +1,52 @@
+{
+    "me-photo": "images/me_default_pb.png",
+    "language-selector": "Language",
+    "header": {
+        "title": "Hi! Petini here.",
+        "subtitle": "I'm developer who loves programing.",
+        "keywords": [
+            "#soccer",
+            "#chess",
+            "#fights",
+            "#games"
+        ]
+    },
+    "section1": {
+        "title": "Take a look at what I can do.",
+        "jobs": [
+            {
+                "title": "Mister Development",
+                "description": "I worked as fullstack developer building a lot of types of apps.",
+                "initdate": "2019/01/11",
+                "enddate": "2023/09/20",
+                "badges": [
+                    "golang",
+                    "php",
+                    "javascript"
+                ],
+                "location": {
+                    "address": "Sunday Tenuta, 534",
+                    "city": "Big Field-MS"
+                }
+            },
+            {
+                "title": "General Advocacy of Union",
+                "description": "I did an internship at Campo Grande-MS.",
+                "initdate": "2018/06/01",
+                "enddate": "2018/09/01",
+                "badges": [
+                    "js"
+                ],
+                "location": {
+                    "address": "New Garden, 55",
+                    "city": "Campo Grande-MS"
+                }
+            }
+        ]
+    },
+    "papai": {
+        "nene" :{
+            "nunu": "nunu en"
+        }
+    }
+}
