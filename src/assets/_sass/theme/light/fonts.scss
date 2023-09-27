@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+$font-stack: 'Caveat', cursive;
+$font-light-title: 'Abril Fatface', cursive;
+$font-light-subtitle: 'Cinzel', serif;
+$font-light-text: 'Merriweather', serif;
+$font-light-list: 'Space Mono', monospace;
+
+.light {
+    li {
+        font: 100% $font-light-list;
+    }
+}

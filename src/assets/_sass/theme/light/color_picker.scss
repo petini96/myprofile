@@ -1,0 +1,11 @@
+.light{
+    #color-picker{
+        font-size: 1.5em;
+        margin-top: 1em;
+        
+        @include respond-to(md) {
+            margin-top: 0;
+            font-size: auto;
+        }
+    }
+}

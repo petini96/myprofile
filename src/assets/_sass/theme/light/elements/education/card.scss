@@ -1,0 +1,21 @@
+.light{
+    .education-card {
+        background-color: $plt-light-e;
+        color: $plt-light-d;
+    
+        .header {
+    
+            color: $plt-light-d;
+    
+            span {
+                margin: 0.5em;
+                color: $plt-light-a;
+            }
+        }
+        .education-button {
+            margin-top: 3%;
+            color: $plt-light-c;
+    
+        }
+    }
+}

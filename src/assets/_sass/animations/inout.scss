@@ -1,0 +1,21 @@
+$duration: 3.5s;
+$timing-function: ease-in-out;
+
+@mixin fade-in {
+    animation: fade-in $duration $timing-function;
+}
+
+.fade-in {
+    @include fade-in;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+

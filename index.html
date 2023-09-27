@@ -4,11 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./styles.css">
   <title>Petini96</title>
 </head>
 
 <body class="v8">
-  <header>
+  <div id="loading-animation">
+    <div class="spinner"></div>
+  </div>
+
+  <header class="initial">
     <div>
       <div class="pick-language-box">
         <label for="languageSelector">
@@ -16,30 +21,35 @@
         </label>
         <select id="languageSelector" value="pt">
           <option value="pt">Portugês</option>
-          <option value="en">English</option>
+          <option value="en">Inglês</option>
+          <option value="sp">Espanhol</option>
+          <option value="al">Alemão</option>
         </select>
+        <i id="color-picker" class="fa-solid fa-palette" onclick="changeTheme()"></i>
       </div>
       <nav>
         <ul>
-          <li> 
-            <a href="https://www.linkedin.com/in/vin%C3%ADcius-dos-santos-petini-0a7129163/"><i class="fa-brands fa-linkedin"></i></a>
+          <li>
+            <a href="https://www.linkedin.com/in/vin%C3%ADcius-dos-santos-petini-0a7129163/"><i
+                class="fa-brands fa-linkedin"></i></a>
           </li>
-          <li> 
+          <li>
             <a href="mailto:petiniprojetos96@gmail.com"><i class="fa-solid fa-envelope"></i></a>
           </li>
-          <li> 
+          <li>
             <a href="https://github.com/petini96"><i class="fa-brands fa-github"></i></a>
           </li>
         </ul>
       </nav>
     </div>
   </header>
-  <main>
-    <div>
-      <div class="personal-info">
-        <img class="translate light-animation" data-translate="me-photo" alt="" />
+  <main class="initial">
+    <div class="container">
+      <!-- personal-info -->
+      <div class="personal-info fade-in">
+        <!-- <img class="translate light-animation " data-translate="me-photo" alt="" loading="lazy" /> -->
         <div class="info-container">
-          <div class="fade-in">
+          <div class="">
             <h1 class="translate" data-translate="header_title"></h1>
             <h3 class="translate" data-translate="header_subtitle"></h3>
             <ul>
@@ -57,39 +67,113 @@
               </li>
             </ul>
           </div>
-          <!-- about me -->
-              <!-- languages -->
-          <!-- graduation/education -->
-          <!-- courses(udemy, etc) -->
-
-          <!-- goals -->
-          <!-- ::
-                   - help with open source -->
-          <!-- skills -->
-
-          <!-- place worked -->
-          <!-- knowlogment backend -->
-          <!-- knowlogment frontend -->
-          <!-- knowlogment infra -->
-          <!-- ::
-              - tools 
-              - graphics with each skill percents -->
-
-          <!-- main challenges in development -->
-          <!-- greater achievements in development -->
-
-          <!-- apps -->
         </div>
-
       </div>
- 
+      <!-- about-me -->
+      <div class="about-me " loading="lazy">
+        <h2 class="translate" data-translate="about-me_title">Sobre mim:</h2>
+        <div class="about-me-title">
+          <p><span class="translate" data-translate="about-me_option_name">Nome: </span> Vinícius dos Santos Petini</p>
+          <p><span class="translate" data-translate="about-me_option_age_text">Idade: </span> 27 <span class="translate"
+              data-translate="about-me_option_age_value"></span></p>
+          <p><span class="translate" data-translate="about-me_option_nation_text">Nacionalidade: </span> <span
+              class="translate" data-translate="about-me_option_nation_value"></span></p>
+        </div>
+        <div class="about-me-text">
+          <p class="translate" data-translate="about-me_text[0]">
+            Natural de Cuiabá-MT e residente em Campo Grande-MS desde a infância, sempre fui curioso por tecnologia.
+            Era o famoso nerd que concertava o computador dos tios e tias, amigos e amigas e assim por diante.
+          </p>
+          <p class="translate" data-translate="about-me_text[1]">
+            Minha primeira interação com computador foi um Windows 98 que nem se conectava com a internet, que inclusive
+            na época ainda era discada.
+            Esse foi computador do meu tio, que praticamente era patrimônio da família, resultante de escambo e outros.
+            Ninguém nem sabia o motivo de
+            ter um computador em casa, e nem eu, mas aquilo me deixava fascinado.
+          </p>
+        </div>
+      </div>
+      <!-- education -->
+      <div class="education-container ">
+        <div class="education-title">
+          <h2 class="translate" data-translate="education_title">Educação</h2>
+        </div>
+        <div class="education-card">
+          <div class="header">
+            <p>
+              <i class="fa-solid fa-calendar-days"></i>
+              <span class="translate" data-translate="education_courses[0]_period">2016 - 2019</span>
+            </p>
+          </div>
+          <div class="course">
+            <p class="translate" data-translate="education_courses[0]_title">Curso superior tecnólogo em Sistemas para
+              Internet</p>
+          </div>
+          <div class="brief">
+            <p class="translate" data-translate="education_courses[0]_brief">Aqui vai um breve resumo do curso em
+              questão.</p>
+          </div>
+          <div class="education-button">
+            <a href=""><i class="fa-solid fa-paperclip"></i> <span class="translate"
+                data-translate="education_courses[0]_show">Visualizar Diploma.</span></a>
+          </div>
+        </div>
+        <div class="education-card">
+          <div class="header">
+            <p><i class="fa-solid fa-calendar-days"></i> <span data-translate="graduation_courses[1]_period">2022 -
+                2024</span></p>
+          </div>
+          <div class="course">
+            <p data-translate="graduation_courses[1]_title">Pós graduação em ciência de dados e big data</p>
+          </div>
+          <div class="brief">
+            <p class="translate" data-translate="education_courses[1]_brief">Aqui vai um breve resumo do curso em
+              questão.</p>
+          </div>
+          <div class="education-button">
+            <a href=""><i class="fa-solid fa-paperclip"></i> <span class="translate"
+                data-translate="education_courses[1]_show">Visualizar Matrícula.</span></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- languages -->
+      <!-- courses(udemy, etc) -->
+
+      <!-- goals -->
+      <!-- ::
+               - help with open source -->
+      <!-- skills -->
+
+      <!-- place worked -->
+      <!-- knowlogment backend -->
+      <!-- knowlogment frontend -->
+      <!-- knowlogment infra -->
+      <!-- ::
+          - tools 
+          - graphics with each skill percents -->
+
+      <!-- main challenges in development -->
+      <!-- greater achievements in development -->
+
+      <!-- apps -->
     </div>
   </main>
-  <footer>
-    <code>v0.1.0-alpha.1</code>
+  <footer class="initial">
+    <code>v0.3.0-alpha.1</code>
   </footer>
 
   <script src="bundle.js"></script>
+  <script>
+    let themes = ["v8", "light"];
+    let currentThemeIndex = 0;
+
+    function changeTheme() {
+      document.body.classList.remove(themes[currentThemeIndex]);
+      currentThemeIndex = (currentThemeIndex + 1) % themes.length;
+      document.body.classList.add(themes[currentThemeIndex]);
+    }
+  </script>
 </body>
 
 </html>

@@ -1,0 +1,43 @@
+@import 'colors';
+@import 'fonts';
+@import "scroll";
+@import 'color_picker';
+
+@import 'elements/main_container';
+@import 'elements/header';
+@import 'elements/personal_info.scss';
+@import 'elements/about_me';
+@import 'elements/education/container.scss';
+@import 'elements/education/card.scss';
+
+
+.light {
+
+    h1 {
+        font-family: $font-light-title;
+    }
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: $font-light-subtitle;
+    }
+
+    p,
+    span,
+    label {
+        font-family: $font-light-text;
+    }
+
+    li {
+        font-family: $font-light-list;
+    }
+
+    footer {
+        background-color: $plt-light-e;
+        color: $plt-light-b;
+        padding: 1em;
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "me-photo": "images/me_default_pb.png",
+    "language-selector": "Idioma ",
+    "header": {
+      "title": "Vinícius S. Petini",
+      "subtitle": "Desarrollador Fullstack en busca de desafíos y nuevas experiencias de aprendizaje.",
+      "keywords": [
+        "#fútbol",
+        "#ajedrez",
+        "#luchas",
+        "#juegos"
+      ]
+    },
+    "about-me": {
+      "title": "Sobre mí:",
+      "option": {
+        "name": "Nombre:",
+        "age": "Edad: ",
+        "nation": "Nacionalidad:"
+      },
+      "text": [
+        "Natural de Cuiabá-MT y residente en Campo Grande-MS desde la infancia, siempre tuve curiosidad por la tecnología. Era el famoso nerd que arreglaba las computadoras de tíos, tías, amigos y amigas, y así sucesivamente.",
+        "Mi primera interacción con una computadora fue un Windows 98 que ni siquiera se conectaba a internet y en esa época aún tenía una conexión telefónica. Esta fue la computadora de mi tío, que prácticamente era un patrimonio familiar, resultado de trueques y otras cosas. Nadie sabía por qué teníamos una computadora en casa, ni siquiera yo, pero eso me fascinaba."
+      ]
+    },
+    "education": {
+      "title": "Educación",
+      "courses": [
+        {
+          "period": "2016 - 2019",
+          "type": "Graduación",
+          "title": "Curso superior tecnólogo en Sistemas para Internet",
+          "brief": "Curso realizado sin ninguna intención particular",
+          "show": "Ver Diploma"
+        },
+        {
+          "period": "2022 - 2024",
+          "type": "Postgrado",
+          "title": "Postgrado en Ciencia de Datos y Big Data",
+          "brief": "Curso realizado sin ninguna intención particular",
+          "show": "Ver Matrícula"
+        }
+      ]
+    },
+    "section1": {
+      "title": "Aquí verán mi trabajo...",
+      "jobs": [
+        {
+          "title": "Señor Desarrollo",
+          "description": "Trabajo actualmente como desarrollador Fullstack, construyendo diversas aplicaciones.",
+          "initdate": "01/11/2019",
+          "enddate": "20/09/2023",
+          "badges": [
+            "golang",
+            "php",
+            "javascript",
+            "otros"
+          ],
+          "location": {
+            "address": "Domingos Tenuta, 534",
+            "city": "Campo Grande-MS"
+          }
+        },
+        {
+          "title": "Abogacía General de la Unión",
+          "description": "Realicé prácticas en una entidad pública de Campo Grande-MS.",
+          "initdate": "01/06/2018",
+          "enddate": "01/09/2018",
+          "badges": [
+            "javascript"
+          ],
+          "location": {
+            "address": "Jardim novo, 55",
+            "city": "Campo Grande-MS"
+          }
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,13 @@
+$font-stack: Montserrat,
+    Roboto;
+
+$font-v8-title: 'Montserrat', sans-serif;
+$font-v8-subtitle: 'Open Sans', sans-serif;
+$font-v8-text: 'Roboto', sans-serif;
+$font-v8-list: 'Source Sans Pro', sans-serif;
+
+.v8{
+    li {
+        font: 100% $font-v8-list;
+    }
+}

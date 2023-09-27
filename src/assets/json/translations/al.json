@@ -1,0 +1,80 @@
+{
+    "me-photo": "images/me_default_pb.png",
+    "language-selector": "Sprache ",
+    "header": {
+      "title": "Vinícius S. Petini",
+      "subtitle": "Fullstack-Entwickler auf der Suche nach Herausforderungen und neuen Lernerfahrungen.",
+      "keywords": [
+        "#fußball",
+        "#schach",
+        "#kämpfe",
+        "#spiele"
+      ]
+    },
+    "about-me": {
+      "title": "Über mich:",
+      "option": {
+        "name": "Name:",
+        "age": "Alter: ",
+        "nation": "Nationalität:"
+      },
+      "text": [
+        "Geboren in Cuiabá-MT und seit meiner Kindheit in Campo Grande-MS ansässig, war ich immer neugierig auf Technologie. Ich war der berühmte Nerd, der Computer für Onkel, Tanten, Freunde und so weiter reparierte.",
+        "Meine erste Interaktion mit einem Computer war ein Windows 98, das nicht einmal mit dem Internet verbunden war und zu dieser Zeit noch eine Einwahlverbindung hatte. Das war der Computer meines Onkels, der praktisch ein Familienerbstück war, das Ergebnis von Tauschgeschäften und anderen Dingen. Niemand wusste, warum wir einen Computer zu Hause hatten, nicht einmal ich, aber es faszinierte mich."
+      ]
+    },
+    "education": {
+      "title": "Bildung",
+      "courses": [
+        {
+          "period": "2016 - 2019",
+          "type": "Hochschulabschluss",
+          "title": "Technologenkurs für Internet-Systeme",
+          "brief": "Zusammenfassung des Kurses...",
+          "show": "Diplom anzeigen"
+        },
+        {
+          "period": "2022 - 2024",
+          "type": "Postgraduiertenstudium",
+          "title": "Postgraduiertenstudium in Datenwissenschaft und Big Data",
+          "brief": "Zusammenfassung des Kurses...",
+          "show": "Einschreibung anzeigen"
+        }
+      ]
+    },
+    "section1": {
+      "title": "Hier werden Sie meine Arbeit sehen...",
+      "jobs": [
+        {
+          "title": "Herr Entwicklung",
+          "description": "Arbeite derzeit als Fullstack-Entwickler und erstelle verschiedene Anwendungen.",
+          "initdate": "01.11.2019",
+          "enddate": "20.09.2023",
+          "badges": [
+            "golang",
+            "php",
+            "javascript",
+            "andere"
+          ],
+          "location": {
+            "address": "Domingos Tenuta, 534",
+            "city": "Campo Grande-MS"
+          }
+        },
+        {
+          "title": "Generalanwaltschaft",
+          "description": "Ich absolvierte ein Praktikum in einer öffentlichen Einrichtung in Campo Grande-MS.",
+          "initdate": "01.06.2018",
+          "enddate": "01.09.2018",
+          "badges": [
+            "javascript"
+          ],
+          "location": {
+            "address": "Jardim novo, 55",
+            "city": "Campo Grande-MS"
+          }
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,23 @@
+%flex-all-center {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-center-md-gap {
+    @extend %flex-all-center;
+    gap: 1em;
+}
+
+@mixin flex($direction: row, $justify: center, $align: center, $gap: 0px) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}
+
+

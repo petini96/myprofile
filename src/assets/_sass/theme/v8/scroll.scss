@@ -1,0 +1,14 @@
+
+.v8::-webkit-scrollbar {
+    width: 12px;
+    min-height: 2px;
+    max-height: 2px;
+}
+
+.v8::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+.v8::-webkit-scrollbar-thumb {
+    background-color: $plt-v8-c;
+}

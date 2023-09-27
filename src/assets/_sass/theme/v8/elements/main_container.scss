@@ -1,0 +1,12 @@
+.v8 {
+    .container {
+        background-color: $plt-v8-e;
+        @include respond-to(xm) {
+            
+            @include flex(row, start, start, 2%)
+        }
+        @include respond-to(xl) {
+            @include flex(row, center, center, 2%)
+        } 
+    }
+}

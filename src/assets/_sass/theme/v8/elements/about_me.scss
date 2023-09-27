@@ -1,0 +1,53 @@
+.v8{
+    .about-me {
+        text-align: justify;
+        margin-top: 5%;
+        margin-right: 10%;
+        margin-left: 10%;
+        width: 80%;
+    
+        @include respond-to(xs) {}
+    
+        @include respond-to(md) {}
+    
+        @include respond-to(lg) {
+            margin-top: 0%;
+            margin-left: 10%;
+            margin-right: 10%;
+            width: 80%;
+        }
+    
+        @include respond-to(xxl) {
+            margin-top: 5%;
+            width: 60%;
+            margin-right: 0%;
+            margin-left: 0%;
+        }
+    
+        .about-me-title {
+            margin: 0.5em 0em 0.5em 0em;
+        }
+    
+        .about-me-title {
+            span:nth-child(2) {
+                color: $plt-v8-d;
+            }
+        }
+    
+        .about-me-text {
+            margin: 0 5% 0em 0em;
+        }
+    
+        h2 {
+            color: $plt-v8-b;
+        }
+    
+        span {
+            color: $plt-v8-a;
+        }
+    
+        p {
+            color: $plt-v8-d;
+        }
+    }
+}

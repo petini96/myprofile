@@ -1,0 +1,86 @@
+body {
+    @include respond-to(xs) {
+        font-size: 15px;
+    }
+
+    @include respond-to(sm) {
+        font-size: 18px;
+    }
+
+    @include respond-to(md) {
+        font-size: 20px;
+    }
+
+    @include respond-to(lg) {
+        font-size: 22px;
+    }
+
+    @include respond-to(xl) {
+        font-size: 24px;
+    }
+    
+    @include respond-to(xxl) {
+        font-size: 26px;
+    }
+    
+    // @include respond-to(xxl) {
+       
+    //     h1{
+    //         font-size: 4.8em;
+    //         line-height: 1.3em;
+    //     }
+    //     h3{
+    //         font-size: 1.7em;
+    //         line-height: 1.3em;
+    //     }
+    //     ul {
+    //         span {
+    //             font-size: 1.3em;
+    //         }
+    //     }
+    // }
+}
+
+$font-base: 1em;
+
+$heading1-size: $font-base * 2.5;
+$heading2-size: $font-base * 1.8;
+$heading3-size: $font-base * 1.4;
+$heading4-size: $font-base * 1.0;
+$heading5-size: $font-base * 0.8;
+$paragraph-size: $font-base;
+$list-item-size: $font-base;
+
+h1 {
+    font-size: $heading1-size;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: $heading2-size;
+    line-height: 1.3;
+}
+
+h3 {
+    font-size: $heading3-size;
+    line-height: 1.4;
+}
+
+h4 {
+    font-size: $heading4-size;
+    line-height: 1.4;
+}
+
+h5 {
+    font-size: $heading5-size;
+    line-height: 1.4;
+}
+
+p {
+    font-size: $paragraph-size;
+    line-height: 1.6;
+}
+
+// li {
+//     font: 100% $font-v8-list;
+// }

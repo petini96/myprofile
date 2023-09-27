@@ -1,0 +1,14 @@
+.job-items {
+    @include flex(row, center, center, 0px);
+
+    .card {
+        background-color: $plt-v8-d;
+        padding: 20px;
+        border-radius: 20px;
+        margin: 15px;
+
+        .title {
+            font-size: 2em;
+        }
+    }
+}

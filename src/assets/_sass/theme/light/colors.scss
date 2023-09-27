@@ -1,0 +1,37 @@
+@use 'base/colors';
+
+$plt-light-a: #2A2A2A;
+$plt-light-b: #FF6F61;
+$plt-light-c: #45AAB8;
+$plt-light-d: #4A4A4A;
+$plt-light-e: #F2F2F2;
+
+
+.bg-dark {
+    background-color: $dark-color;
+}
+
+
+.bg-v8-a {
+    background-color: $plt-v8-b;
+
+    input {
+        background: none;
+    }
+}
+
+.bg-v8-b {
+    background-color: $plt-v8-b;
+}
+
+.bg-v8-c {
+    background-color: $plt-v8-c;
+}
+
+.bg-v8-d {
+    background-color: $plt-v8-d;
+}
+
+.bg-v8-e {
+    background-color: $plt-v8-e;
+}

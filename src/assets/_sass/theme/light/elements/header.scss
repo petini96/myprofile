@@ -1,0 +1,83 @@
+.light{
+    header {
+        div {
+            background-color: $plt-light-e;
+            color: $plt-light-a;
+            @include flex(row, start, center, 2%) 
+        }
+    
+        .pick-language-box {
+            padding: 15px;
+            width: 35%;
+    
+            label {
+                p {
+                    margin: 1em 1em 1em 1em;
+                }
+            }
+        }
+    
+        select {
+            width: 200px;
+            padding: 10px;
+            border: 2px solid $plt-light-a;
+            background: none;
+            color: $plt-light-b;
+            font-size: 16px;
+        }
+    
+        select::after {
+            content: '\25BC';
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+        }
+    
+        option {
+            background-color: $plt-light-d;
+            padding: 2em;
+            color: $plt-light-b;
+        }
+    
+    
+        nav {
+            padding: 0.5em;
+    
+            @include respond-to(xs) {
+                width: 60%;
+                ul {
+                    @include flex(row, center, center, 0px);
+                    gap: 1.5em;
+        
+                    li {
+                        color: $plt-light-d;
+                        font-size: 1.5em;
+                    }
+                }
+            }
+    
+            @include respond-to(sm) {}
+    
+            @include respond-to(md) {
+                ul {
+                    @include flex(row, end, center, 0px);
+                    gap: 1.5em;
+        
+                    li {
+                        color: $plt-light-d;
+                        font-size: 1.5em;
+                    }
+                }
+            }
+    
+            @include respond-to(lg) {
+                width: 60%;
+            }
+    
+            @include respond-to(xl) {}
+    
+            width: 100%;
+        }
+    }
+}

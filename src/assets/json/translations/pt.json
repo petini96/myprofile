@@ -11,6 +11,43 @@
             "#jogos"
         ]
     },
+    "about-me":{
+        "title": "Sobre mim",
+        "option":{
+            "name": "Nome: ",
+            "age": {
+                "text": "Idade: ",
+                "value": "anos"
+            },
+            "nation": {
+                "text": "Nacionalidade: ",
+                "value":"Brasileiro"
+            }
+        },
+        "text": [
+            "Natural de Cuiabá-MT e residente em Campo Grande-MS desde a infância, sempre fui curioso por tecnologia.Era o famoso nerd que concertava o computador dos tios e tias, amigos e amigas e assim por diante.",
+            "Minha primeira interação com computador foi um Windows 98 que nem se conectava com a internet, que inclusivena época ainda era discada.Esse foi computador do meu tio, que praticamente era patrimônio da família, resultante de escambo e outros.Ninguém nem sabia o motivo deter um computador em casa, e nem eu, mas aquilo me deixava fascinado."
+        ]
+    },
+    "education":{
+        "title": "Educação",
+        "courses":[
+            {
+                "period": "2016 - 2019",
+                "type": "Graduação",
+                "title": "Curso superior tecnólogo em Sistemas para Internet",
+                "brief": "Resumo sobre o curso...",
+                "show": "Visualizar Diploma"
+            },
+            {
+                "period": "2022 - 2024",
+                "type": "Pós Graduação",
+                "title": "Pós graduação em ciência de dados e big data",
+                "brief": "Resumo sobre o curso...",
+                "show": "Visualizar Matrícula"
+            }
+        ]
+    },
     "section1": {
         "title": "Aqui vocês verão meus trabalhos...",
         "jobs": [
@@ -44,11 +81,6 @@
                 }
             }
         ]
-    },
-    "papai": {
-        "nene" :{
-            "nunu": "tata br"
-        }
     }
 
 }

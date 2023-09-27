@@ -1,22 +1,24 @@
-
 const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   mode: 'development',
   plugins: [
+    new MiniCssExtractPlugin({
+      filename: 'styles.css', // Define o nome do arquivo CSS de saída
+    }),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      template: 'index.html',
+      template: './index.html',
     })
   ],
-  entry: path.resolve(__dirname, './src/index.js'),
+  entry: path.resolve(__dirname, './src/index.js'), 
   devtool: "eval-source-map",
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, './public'),
+    path: path.resolve(__dirname, './public'), 
     clean: true,
   },
   module: {
@@ -28,7 +30,7 @@ module.exports = {
       },
       {
         test: /\.s?css$/,
-        use: ["style-loader", "css-loader", "sass-loader"],
+        use: [ MiniCssExtractPlugin.loader,, "css-loader", "sass-loader"],
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
@@ -37,7 +39,7 @@ module.exports = {
         // options: {
         //   outputPath: 'images',
         // },
-      }
+      },
 
     ],
   }, 
@@ -47,10 +49,6 @@ module.exports = {
       directory: path.join(__dirname, '.'),
     }, 
     hot: true,
-    client: {
-      overlay: true,
-    },
   }
-
 };
  

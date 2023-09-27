@@ -1,0 +1,66 @@
+.v8 {
+    .education-container {
+        margin-top: 5%;
+        margin-right: 10%;
+        margin-left: 10%;
+        width: 80%;
+
+        .education-title {
+            margin-bottom: 5%;
+            color: $plt-v8-b;
+        }
+
+        .education-card {
+            margin-bottom: 5%;
+        }
+
+        @include respond-to(md) {
+            margin-bottom: 0%;
+
+            .education-title {
+                width: 100%;
+            }
+
+            .education-card {
+                width: 50%;
+            }
+        }
+
+        @include respond-to(lg) {
+            gap: 1em;
+
+            .education-title {
+                margin-bottom: 0%;
+                width: 100%;
+            }
+
+            .education-card {
+                border-radius: 5%;
+                width: 35%;
+            }
+
+        }
+
+        @include respond-to(xxl) {
+            margin-right: 0%;
+            margin-left: 0%;
+            width: 20%;
+
+            .education-title {
+                margin-bottom: 0%;
+                width: 100%;
+            }
+
+            .education-card {
+                border-radius: 5%;
+                width: 100%;
+            }
+        }
+
+        @include flex(row, start, start, 0em);
+
+        .header {
+            color: $plt-v8-a;
+        }
+    }
+}

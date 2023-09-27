@@ -1,0 +1,21 @@
+.v8{
+    .education-card {
+        background-color: $plt-v8-e;
+        color: $plt-v8-d;
+    
+        .header {
+    
+            color: $plt-v8-d;
+    
+            span {
+                margin: 0.5em;
+                color: $plt-v8-a;
+            }
+        }
+        .education-button {
+            margin-top: 3%;
+            color: $plt-v8-c;
+    
+        }
+    }
+}
