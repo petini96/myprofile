@@ -12,8 +12,8 @@
   <div id="loading-animation">
     <div class="spinner"></div>
   </div>
-
-  <header class="initial">
+  <div class="bk-image"> </div>
+  <header id="initial" class="initial">
     <div>
       <div class="pick-language-box">
         <label for="languageSelector">
@@ -46,12 +46,15 @@
   <main class="initial">
     <div class="container">
       <!-- personal-info -->
-      <div class="personal-info fade-in">
+      <div id="personal-info" class="personal-info fade-in">
         <!-- <img class="translate light-animation " data-translate="me-photo" alt="" loading="lazy" /> -->
         <div class="info-container">
           <div class="">
             <h1 class="translate" data-translate="header_title"></h1>
-            <h3 class="translate" data-translate="header_subtitle"></h3>
+            <h3>
+              <span class="translate bg-v8-c" data-translate="header_profession"></span>
+              <span class="translate" data-translate="header_subtitle"></span>
+            </h3>
             <ul>
               <li>
                 <span class="translate" data-translate="header_keywords[0]"></span>
@@ -65,21 +68,225 @@
               <li>
                 <span class="translate" data-translate="header_keywords[3]"></span>
               </li>
+              <li>
+                <span class="translate" data-translate="header_keywords[4]"></span>
+              </li>
+            </ul>
+
+          </div>
+ 
+        </div>
+      </div>
+
+
+
+
+      <div id="me-photo" class="me-photo" loading="lazy">
+
+        <!-- education -->
+        <div class="education-container ">
+          <div class="education-title">
+            <h2 class="translate" data-translate="education_title">Educação</h2>
+          </div>
+          <div class="education-card">
+            <div class="header">
+              <p>
+                <i class="fa-solid fa-calendar-days"></i>
+                <span class="translate" data-translate="education_courses[0]_period">2016 - 2019</span>
+              </p>
+            </div>
+            <div class="course">
+              <p class="translate" data-translate="education_courses[0]_title">Curso superior tecnólogo em Sistemas para
+                Internet</p>
+            </div>
+            <div class="brief">
+              <p class="translate" data-translate="education_courses[0]_brief">Aqui vai um breve resumo do curso em
+                questão.</p>
+            </div>
+            <div class="education-button">
+              <a href=""><i class="fa-solid fa-paperclip"></i> <span class="translate"
+                  data-translate="education_courses[0]_show">Visualizar Diploma.</span></a>
+            </div>
+          </div>
+          <div class="education-card">
+            <div class="header">
+              <p><i class="fa-solid fa-calendar-days"></i> <span data-translate="graduation_courses[1]_period">2022 -
+                  2024</span></p>
+            </div>
+            <div class="course">
+              <p data-translate="graduation_courses[1]_title">Pós graduação em ciência de dados e big data</p>
+            </div>
+            <div class="brief">
+              <p class="translate" data-translate="education_courses[1]_brief">Aqui vai um breve resumo do curso em
+                questão.</p>
+            </div>
+            <div class="education-button">
+              <a href=""><i class="fa-solid fa-paperclip"></i> <span class="translate"
+                  data-translate="education_courses[1]_show">Visualizar Matrícula.</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="skills-1" class="skills">
+        <div>
+          <div class="frontend">
+            <span class="title"> Frontend:</span>
+            <div class="date">
+              <i class="fa-solid fa-calendar-days"></i> 
+              2020-2023
+            </div>
+            <ul>
+              <li>
+                <i class="fa-brands fa-html5"></i>
+                HTML | CSS | JS
+              </li>
+              <li>
+                <i class="fa-brands fa-bootstrap"></i>
+                BOOTSTRAP | QUASAR | CHAKRA UI
+              </li>
+              <li>
+                <i class="fa-solid fa-layer-group"></i>
+                STYLED-COMPONENT
+              </li>
+              <li>
+                <i class="fa-brands fa-sass"></i>
+                SASS | WEBPACK | BABEL
+              </li>
+              <li>
+                <i class="fa-solid fa-file-zipper"></i>
+                WEBPACK | BABEL
+              </li>
+              <li>
+                <i class="fa-solid fa-bolt-lightning"></i>
+                VITE
+              </li>
+              <li>
+                <i class="fa-brands fa-npm"></i>
+                YARN | NPM 
+              </li>
+            </ul>
+          </div>
+          <div class="backend">
+            <span class="title"> Tecnologias Gerais:</span>
+            <div class="date">
+              <i class="fa-solid fa-calendar-days"></i> 
+              2020-2023
+            </div>
+            <ul>
+              <li>
+                <i class="fa-brands fa-golang"></i>
+                GOLANG
+              </li>
+              <li>
+                <i class="fa-solid fa-folder-tree"></i>
+                MVC
+              </li>
+              <li>
+                <i class="fa-solid fa-sitemap"></i>
+                DESIGN PATTERNS | SOLID
+              </li>
+              <li>
+                <i class="fa-solid fa-retweet"></i>
+                API REST
+              </li>
+              <li>
+                <i class="fa-solid fa-eye-slash"></i>
+                JWT | ABAC | ACL
+              </li>
+              <li>
+                <i class="fa-solid fa-right-left"></i>
+                POSTMAN
+              </li> 
+              <li>
+                <i class="fa-solid fa-stethoscope"></i>
+                MOCKS | UNIT TEST
+              </li> 
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="skills-2" class="skills">
+        <div>
+          <div class="so">
+            <span class="title">S.O e Serviços/Ferramentas:</span>
+            <div class="date">
+              <i class="fa-solid fa-calendar-days"></i> 
+              2020-2023
+            </div>
+            <ul>
+              <li>
+                <i class="fa-solid fa-feather-pointed"></i>
+                APACHE, NGINX
+              </li>
+              <li>
+                <i class="fa-brands fa-linux"></i>
+                LINUX, WINDOWS, WSL
+              </li>
+              <li>
+                <i class="fa-solid fa-server"></i>
+                CRON JOBS
+              </li>
+              <li>
+                <i class="fa-solid fa-terminal"></i>
+                SSH, SMTP, SSL, HTTP
+              </li>
+              <li>
+                <i class="fa-brands fa-docker"></i>
+                DOCKER, DOCKER-COMPOSE
+              </li>
+              <li>
+                <i class="fa-brands fa-github"></i>
+                GIT, GITHUB, BIT BUCKET
+              </li>
+              <li>
+                <i class="fa-brands fa-trello"></i>
+                TRELLO, JIRA, SCRUM
+              </li>
+              <li>
+                <i class="fa-brands fa-google"></i>
+                GOOGLE CLOUD PLATFORM
+              </li>
+            </ul>
+          </div>
+          <div class="database">
+            <span class="title">Banco de Dados:</span>
+            <div class="date">
+              <i class="fa-solid fa-calendar-days"></i> 
+              2020-2023
+            </div>
+            <ul>
+              <li>
+                <i class="fa-solid fa-database"></i>
+                POSTGRES
+              </li>
+              <li>
+                <i class="fa-solid fa-database"></i>
+                MYSQL
+              </li>
+              <li>
+                <i class="fa-solid fa-database"></i>
+                MONGO
+              </li>
+              <li>
+                <i class="fa-solid fa-database"></i>
+                REDIS
+              </li>
+              <li>
+                <i class="fa-solid fa-database"></i>
+                FIREBASE | FIRESTORE
+              </li>
             </ul>
           </div>
         </div>
       </div>
       <!-- about-me -->
-      <div class="about-me " loading="lazy">
-        <h2 class="translate" data-translate="about-me_title">Sobre mim:</h2>
-        <div class="about-me-title">
-          <p><span class="translate" data-translate="about-me_option_name">Nome: </span> Vinícius dos Santos Petini</p>
-          <p><span class="translate" data-translate="about-me_option_age_text">Idade: </span> 27 <span class="translate"
-              data-translate="about-me_option_age_value"></span></p>
-          <p><span class="translate" data-translate="about-me_option_nation_text">Nacionalidade: </span> <span
-              class="translate" data-translate="about-me_option_nation_value"></span></p>
-        </div>
-        <div class="about-me-text">
+      <div id="about-me" class="about-me " loading="lazy">
+        
+        <div class="about-me-text" loading="lazy">
+          <h2 class="translate" data-translate="about-me_title">Sobre mim:</h2>
           <p class="translate" data-translate="about-me_text[0]">
             Natural de Cuiabá-MT e residente em Campo Grande-MS desde a infância, sempre fui curioso por tecnologia.
             Era o famoso nerd que concertava o computador dos tios e tias, amigos e amigas e assim por diante.
@@ -93,50 +300,6 @@
           </p>
         </div>
       </div>
-      <!-- education -->
-      <div class="education-container ">
-        <div class="education-title">
-          <h2 class="translate" data-translate="education_title">Educação</h2>
-        </div>
-        <div class="education-card">
-          <div class="header">
-            <p>
-              <i class="fa-solid fa-calendar-days"></i>
-              <span class="translate" data-translate="education_courses[0]_period">2016 - 2019</span>
-            </p>
-          </div>
-          <div class="course">
-            <p class="translate" data-translate="education_courses[0]_title">Curso superior tecnólogo em Sistemas para
-              Internet</p>
-          </div>
-          <div class="brief">
-            <p class="translate" data-translate="education_courses[0]_brief">Aqui vai um breve resumo do curso em
-              questão.</p>
-          </div>
-          <div class="education-button">
-            <a href=""><i class="fa-solid fa-paperclip"></i> <span class="translate"
-                data-translate="education_courses[0]_show">Visualizar Diploma.</span></a>
-          </div>
-        </div>
-        <div class="education-card">
-          <div class="header">
-            <p><i class="fa-solid fa-calendar-days"></i> <span data-translate="graduation_courses[1]_period">2022 -
-                2024</span></p>
-          </div>
-          <div class="course">
-            <p data-translate="graduation_courses[1]_title">Pós graduação em ciência de dados e big data</p>
-          </div>
-          <div class="brief">
-            <p class="translate" data-translate="education_courses[1]_brief">Aqui vai um breve resumo do curso em
-              questão.</p>
-          </div>
-          <div class="education-button">
-            <a href=""><i class="fa-solid fa-paperclip"></i> <span class="translate"
-                data-translate="education_courses[1]_show">Visualizar Matrícula.</span></a>
-          </div>
-        </div>
-      </div>
-
       <!-- languages -->
       <!-- courses(udemy, etc) -->
 
@@ -162,8 +325,8 @@
   <footer class="initial">
     <code>v0.3.0-alpha.1</code>
   </footer>
-
-  <script src="bundle.js"></script>
+  <!-- 
+  <script src="bundle.js"></script> -->
   <script>
     let themes = ["v8", "light"];
     let currentThemeIndex = 0;

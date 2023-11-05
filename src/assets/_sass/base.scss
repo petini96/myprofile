@@ -1,3 +1,35 @@
+%container-no-gutter {
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+}
+
+%my-sm {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.my-sm{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+%container-gutter {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+%h-full{
+    height: calc(100vh - 10em);
+}
+
+%col-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
@@ -9,3 +41,4 @@
 .p-5 {
     padding: 10px;
 }
+

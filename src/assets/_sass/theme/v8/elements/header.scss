@@ -1,7 +1,8 @@
 .v8{
     header {
+        height: 20vh;
+        position: fixed;
         div {
-            background-color: $plt-v8-e;
             color: $plt-v8-a;
             @include flex(row, start, center, 2%) 
         }
@@ -42,7 +43,6 @@
     
     
         nav {
-            padding: 0.5em;
     
             @include respond-to(xs) {
                 width: 60%;

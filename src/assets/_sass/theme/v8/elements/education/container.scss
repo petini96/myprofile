@@ -1,10 +1,13 @@
 .v8 {
+    
     .education-container {
-        margin-top: 5%;
-        margin-right: 10%;
-        margin-left: 10%;
-        width: 80%;
-
+        @extend %container-gutter;
+        @extend %black-card;
+      
+        .brief{
+            color: $plt-v8-a;
+        }
+         
         .education-title {
             margin-bottom: 5%;
             color: $plt-v8-b;
@@ -60,7 +63,7 @@
         @include flex(row, start, start, 0em);
 
         .header {
-            color: $plt-v8-a;
+            color: $plt-v8-b;
         }
     }
 }

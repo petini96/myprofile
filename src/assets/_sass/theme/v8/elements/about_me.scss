@@ -1,15 +1,14 @@
 .v8{
+    
     .about-me {
-        text-align: justify;
-        margin-top: 5%;
-        margin-right: 10%;
-        margin-left: 10%;
-        width: 80%;
-    
+        height: 100vh; 
+        @include flex($direction: collumn, $justify: start, $align: center, $gap: 10px);
+        @extend %black-card;
+        @extend %container-gutter;
+        text-align: justify; 
+        @extend %my-sm;
         @include respond-to(xs) {}
-    
         @include respond-to(md) {}
-    
         @include respond-to(lg) {
             margin-top: 0%;
             margin-left: 10%;
@@ -30,7 +29,7 @@
     
         .about-me-title {
             span:nth-child(2) {
-                color: $plt-v8-d;
+                color: $plt-v8-b;
             }
         }
     
@@ -47,7 +46,7 @@
         }
     
         p {
-            color: $plt-v8-d;
+            color: $plt-v8-a;
         }
     }
 }

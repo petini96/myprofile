@@ -9,7 +9,55 @@
 @import 'elements/about_me';
 @import 'elements/education/container.scss';
 @import 'elements/education/card.scss';
+@import 'elements/me_photo.scss';
+@import 'elements/skills.scss';
 
+
+body {
+
+    background-color: black;
+}
+
+
+%my-sm {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.my-sm{
+    @extend %my-sm;
+}
+%black-card {
+    padding: 10px;  
+    border-radius: 10px;
+    //border: 2px solid $plt-v8-a; 
+    //background-color: rgba(0, 0, 0, 0.7);
+}
+.navegation-controll {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.up-svg{
+    // position: absolute;
+    background-color: white;
+    // right: 0;
+    // bottom: 0;
+    margin-right: 1em;
+    margin-bottom: 3em;
+}
+.down-svg{
+    //position: absolute;
+    background-color: white;
+    // right: 0;
+    // bottom: 0;
+    margin-right: 3em;
+    margin-bottom: 3em;
+}
+main{
+    height: 100%;
+    width: 100%;
+}
 
 .v8 {
 

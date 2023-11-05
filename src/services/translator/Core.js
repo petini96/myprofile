@@ -6,20 +6,9 @@ Init all process when DOM is loaded. It define the Loader class who loads the JS
 respective language just one time and then instanciate the Translator. 
 The translator catch the initial language and load the first translation.
 */
-window.addEventListener('load', function () {
-    const loadingAnimation = document.getElementById('loading-animation');
-    loadingAnimation.style.display = 'none';
-
-    const initialElements = document.querySelectorAll('.initial');
-    initialElements.forEach(element => {
-      element.style.display = 'block';
-    });
-});
 
 
 document.addEventListener('DOMContentLoaded', async function () {
-
-
     const imageContext = require.context('../../assets', true, /\.(png|svg|jpg|jpeg|gif|json)$/);
 
     let loader = new Loader

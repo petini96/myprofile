@@ -1,6 +1,8 @@
 .v8 {
     .container {
-        background-color: $plt-v8-e;
+        height: 100%;
+        width: 100%;
+        
         @include respond-to(xm) {
             
             @include flex(row, start, start, 2%)

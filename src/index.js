@@ -6,4 +6,5 @@ import '@fortawesome/fontawesome-free/js/fontawesome.js';
 import '@fortawesome/fontawesome-free/js/brands.js';
 import '@fortawesome/fontawesome-free/js/solid.js';
 import './services/translator/Core.js';
-
+import './services/animationspin/Core.js';
+import './services/nextpage/Core.js';

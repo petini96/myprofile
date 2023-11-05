@@ -1,150 +1,68 @@
-.v8{
-    
-.personal-info {
-    @include flex(row, center, center, 0px);
-    background-color: $plt-v8-e;
-    margin-left: 0%;
-    margin-right: 0%;
-    width: 100%;
 
-    @include respond-to(xs) {
-        font-size: 16px;
-        ul {
-            @include flex(row, start, center, 0.3em); 
-            margin-top: 0.5em;
-        }
 
-        height: 60vh;
-        background-image: url("../../assets/images/me_default_pb.png");
-        background-repeat: no-repeat;
-        background-size: 80vh;
-        background-position-y: 70%;
-        background-position-x: -20%;
-        backdrop-filter: blur(8px); 
+.v8 {
+    .personal-info {
+        height: 100vh;
+        
+         
+        @include flex($direction: collumn, $justify: center, $align: center, $gap: 0px);
+
         .info-container {
+            @extend %black-card;
             width: 80%;
         }
 
+        @include respond-to(xs) {
+            font-size: 16px;
 
-        img {
-            max-width: 100%;
-        } 
-    }
+            ul {
+                @include flex(row, start, center, 0.3em);
+                margin-top: 0.5em;
+            }
 
-    @include respond-to(sm) {
-        ul {
-            @include flex(row, start, center, 0.8em); 
-            margin-top: 0.5em;
-        }
-        font-size: 18px;
-        height: 60vh;
-        background-image: url("../../assets/images/me_default_pb.png");
-        background-repeat: no-repeat;
-        background-size: 80vh;
-        background-position-y: 70%;
-        background-position-x: -40%;
-        backdrop-filter: blur(8px); 
-        .info-container {
-            width: 80%;
-        }
-
-
-        img {
-            max-width: 100%;
-        } 
-    }
-
-    @include respond-to(md) {
-        @include flex(row, start, center, 0px);
-        margin-left: 10%;
-        font-size: 20px;
-        width: 90%;
-        height: 60vh;
-        background-image: url("../../assets/images/me_default_pb.png");
-        background-repeat: no-repeat;
-        background-size: 90vh;
-        background-position-y: 70%;
-        background-position-x: 300%;
-        .info-container {
-            width: 60%;
-        }
-
-        img {
-            max-width: 100%;
-        } 
-    }
-
-    @include respond-to(lg) {
-        img{
-            //width: 40%;
-            display: none;
-        }
-        height: 80vh;
-        background-image: url("../../assets/images/me_default_pb.png");
-        background-repeat: no-repeat;
-        background-size: 110vh;
-        background-position-y: 90%;
-        background-position-x: 140%;
-        .info-container {
-            width: 60%;
-        }
-
-        font-size: 22px;
-    }
-
-    @include respond-to(xl) {
-        img{
-            display: none;
-        }
-        height: 80vh;
-        background-image: url("../../assets/images/me_default_pb.png");
-        background-repeat: no-repeat;
-        background-size: 100vh;
-        background-position-x: 100%;
-        .info-container {
-            width: 80%;
-            div {
-                width: 60%;
+            img {
+                max-width: 100%;
             }
         }
 
-        font-size: 22px;
-    }
+        @include respond-to(sm) {
+            ul {
+                @include flex(row, start, center, 0.8em);
+                margin-top: 0.5em;
+            }
 
-    @include respond-to(xxl) {
-        img{
-            display: none;
         }
-        height: 85vh;
-        background-image: url("../../assets/images/me_default_pb.png");
-        background-repeat: no-repeat;
-        background-size: 120vh;
-        background-position-y: 70%;
-        background-position-x: 100%;
-        .info-container {
-            width: 80%;
+
+        @include respond-to(md) {
         }
-        font-size: 22px;
+
+        @include respond-to(lg) {
+        }
+
+        @include respond-to(xl) {
+        }
+
+        @include respond-to(xxl) {
+        }
+
+
+        h1 {
+            color: $plt-v8-b;
+        }
+
+        h2,
+        h3 {
+            color: $plt-v8-a;
+        }
+
+        li {
+            color: $plt-v8-d;
+        }
+
+        li {
+            font-size: 1.1em;
+        }
+
     }
-
-
-    h1 {
-        color: $plt-v8-b;
-    }
-
-    h2,
-    h3 {
-        color: $plt-v8-d;
-    }
-
-    li {
-        color: $plt-v8-a;
-    }
-
-    li {
-        font-size: 1.1em;
-    }
-
-}
 
 }

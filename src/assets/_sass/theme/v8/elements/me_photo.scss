@@ -1,0 +1,12 @@
+.me-photo{ 
+    height: 100vh;
+    background-image: url("../../assets/images/me_default_pb.png");
+    background-size: cover;
+    background-position-x: -10em;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-attachment: fixed;
+    @include flex(row, center, center, 2%)
+}
+
+ 

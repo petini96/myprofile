@@ -1,0 +1,28 @@
+.v8{
+    .skills{
+        height: 100vh;
+        @include flex($direction: collumn, $justify: start, $align: center, $gap: 10px);
+        //background-image: linear-gradient(to bottom, $plt-v8-c, transparent);
+        padding: 3em;
+        color: $plt-v8-a;
+
+        .title{
+            font-size: 1em;
+            color: $plt-v8-b;
+        }
+
+        .date{
+            color: $plt-v8-d;
+            margin-top: 0.5em;
+            margin-bottom: 1em;
+        }
+
+        .frontend{
+            @extend %my-sm;
+        }
+        .so{
+            @extend %my-sm;
+        }
+    }
+
+}

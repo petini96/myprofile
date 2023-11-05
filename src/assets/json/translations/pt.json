@@ -3,12 +3,14 @@
     "language-selector": "Linguagem ",
     "header": {
         "title": "Vinícius S. Petini",
-        "subtitle": "Desenvolvedor fullstack em busca de desafios e novos aprendizados.",
+        "profession": "Desenvolvedor Web fullstack,",
+        "subtitle": " conectado com programação desde 2017.",
         "keywords": [
-            "#futebol",
-            "#xadres",
-            "#lutas",
-            "#jogos"
+            "#golang",
+            "#php/laravel",
+            "#vuejs",
+            "#react/nextjs",
+            "#docker/docker-compose"
         ]
     },
     "about-me":{
@@ -25,8 +27,7 @@
             }
         },
         "text": [
-            "Natural de Cuiabá-MT e residente em Campo Grande-MS desde a infância, sempre fui curioso por tecnologia.Era o famoso nerd que concertava o computador dos tios e tias, amigos e amigas e assim por diante.",
-            "Minha primeira interação com computador foi um Windows 98 que nem se conectava com a internet, que inclusivena época ainda era discada.Esse foi computador do meu tio, que praticamente era patrimônio da família, resultante de escambo e outros.Ninguém nem sabia o motivo deter um computador em casa, e nem eu, mas aquilo me deixava fascinado."
+            "Desenvolvedor web fullstack, graduado e com experiência sólida em backend, frontend e expertise em áreas de DevOps. Apaixonado por tecnologia e disposto a contribuir habilidades e conhecimentos."
         ]
     },
     "education":{
